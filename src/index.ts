@@ -10,7 +10,8 @@ import { App, DirectiveBinding } from "vue";
 
 
 function addWaterMarker(str: string, parentNode: HTMLDivElement, font: string, textColor: string, rowLength: number, colLength: number) {// 水印文字，父元素，字体，文字颜色
-
+  rowLength = rowLength || 100;
+  colLength = colLength || 100
   let can = document.createElement('canvas');
   parentNode.appendChild(can);
   can.width = parentNode.offsetWidth;

@@ -5,6 +5,11 @@
   "main": "./dist/waterMark.js",
   "module": "./dist/waterMark.es.js",
   "types": "./dist/index.d.ts",
+  "author": {
+    "name": "twinkle",
+    "email": "6254321bc@gmail.com"
+  },
+  "keywords": ["vue3 waterMarker","vue3water ","vue3水印生成 ","vue3添加水印"],
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
