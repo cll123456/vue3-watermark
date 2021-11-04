@@ -4,7 +4,7 @@
 `npm install vue3-watermark` or  `yarn add vue3-watermark`
 
 # 效果
-![image.png](./assets/res.png)
+![image.png](https://img-blog.csdnimg.cn/img_convert/887bd04d2d2c2b07ba03d7e6db96462c.webp?x-oss-process=image/format,png)
 
 # 指令说明
 >本组件本质上是一个vue3的指令，可以使用按需引用，也可以全局注册改指令

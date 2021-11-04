@@ -1,6 +1,6 @@
 {
   "name": "vue3-watermark",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "./dist/waterMark.js",
   "module": "./dist/waterMark.es.js",
