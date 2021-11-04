@@ -1,0 +1,36 @@
+{
+  "name": "vue3-watermark",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./dist/waterMark.js",
+  "module": "./dist/waterMark.es.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "test:watch": "npm run test -- --watchAll"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@vue/test-utils": "^2.0.0-rc.16",
+    "@vue/vue3-jest": "^27.0.0-alpha.3",
+    "eslint": "^8.1.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1",
+    "rollup": "^2.59.0",
+    "rollup-plugin-dts": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4",
+    "vue": "^3.2.21"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
